@@ -23,8 +23,8 @@ appVersion: 0.0.1
 
 dependencies:
 - name: jenkins
-  version: 1.9.21
-  repository: '@stable'
+  version: 4.2.15
+  repository: '@jenkins'
 - name: postgresql
-  version: 8.6.1
-  repository: '@stable'
+  version: 0.2.0
+  repository: '@cetic'

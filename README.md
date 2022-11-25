@@ -20,6 +20,9 @@ This chart can be used in multiple ways, for example a test populating the postg
 ```
 eval $(minikube docker-env)
 docker build . -t postgrest:latest
+helm repo add cetic https://cetic.github.io/helm-charts
+helm repo add jenkins https://charts.jenkins.io
+helm repo update
 helm install postgrest . --namespace mynamespace
 ```
 
